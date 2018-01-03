@@ -21,10 +21,6 @@ class School
 
   def sort
     sorted_r = roster.sort
-    sorted_r.each do |grade|
-      grade.sort
-    end
-
     sorted_r
 
   end
