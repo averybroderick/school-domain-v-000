@@ -20,9 +20,7 @@ class School
   end
 
   def sort
-    sorted_r = roster.sort
-    sorted_r
-
+    roster
   end
 
 end
