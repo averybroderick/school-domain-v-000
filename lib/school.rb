@@ -15,4 +15,8 @@ class School
     end
   end
 
+  def grade(grade_input)
+    grade[grade_input] 
+  end
+
 end
