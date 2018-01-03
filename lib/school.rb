@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    roster.sort.join("")
+    roster.sort.join(" ")
   end
 
 end
